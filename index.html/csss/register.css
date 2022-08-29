@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+body{
+    background-image: url(../jp.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+#admin-box{
+    /* background-color: rgb(28, 108, 139); */
+      background-color: rgba(16,154,247,0.322);
+    color: darkblue;
+    text-align: center;
+    width: 35%;
+    margin: 5% auto;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.admin-img{
+            width: 80px;
+}
+#admin-box h1{
+              font-size: 40px;
+              text
+              
+}
+input,label{
+display: block;
+width: 200px;
+margin: auto;
+padding: 5px;
+
+}
+input{
+    /* background-color: skyblue; */
+    color: black;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+label{
+    font-size: 17px;
+}
+p{
+    font-size: 17px;
+}
+p a{
+    color: firebrick;
+    text-decoration: none;
+    
+}
+input:focus{
+    background-color: skyblue
+}
+input[type="submit"] {
+    /* background-color: skyblue; */
+    border: 1px solid skyblue;
+    margin: 8px auto;
+    width: 15%;
+}   
+input[type="submit"] :hover{
+    background-color: skyblue;
+    background-color: transparent;
+}
+input::placeholder{
+    color: black;
+}
